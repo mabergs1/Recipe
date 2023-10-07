@@ -290,7 +290,7 @@ nav input{
 nav input:checked ~ ul{
     max-height: 550px;
 }
-nav h2, footer h2, footer h3, aside dd{
+nav h3, footer h2, footer h3, aside dd{
     visibility: hidden;
     height: 1px;
     width: 1px;
@@ -326,4 +326,24 @@ signin:hover{
     color: #F2F2F2;
     background-color: #EB5428;
     stroke: #F2F2F2;
+}
+form{
+    display: flex;
+    position: absolute;
+    min-width: 414px;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+}
+form label{
+    display: none;
+}
+form input{
+    margin: 0;
+    background-color: #F2F2F2;
+    padding: 13px 0px;
+    border: 3px solid #EB5428;
+}
+form input:hover{
+    border: 3px solid #0D0D0D;
 }
