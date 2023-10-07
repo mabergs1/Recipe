@@ -113,7 +113,7 @@ menu{
     margin: 20px 20px 20px 0;
     list-style: none;
 }
-menu li{
+menu li a{
     color: #EB5428;
     justify-content: center;
 }
@@ -380,15 +380,7 @@ footer{
 footer h2{
     display: none;
 }
-#good{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: #F2F2F2;
-}
+
 #social{
     display: flex;
     justify-content: space-evenly;
@@ -406,7 +398,15 @@ footer h2{
 #social a svg:hover{
     background-color: #7ABFBF;
 }
-
+#good{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #F2F2F2;
+}
 #good img{
     display: flex;
     grid-row: 1;
