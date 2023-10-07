@@ -74,10 +74,12 @@ header img {
 h1{
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 }
 h2{
     font-size: 30px;
     font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 }
 h3{
     font-size: 25px;
