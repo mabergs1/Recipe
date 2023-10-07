@@ -236,3 +236,29 @@ aside h2{
 .star svg:last-child{
     fill: #EB5428;
 }
+nav{
+    grid-area: nav;
+    min-width: 414px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 3px 3px #bbb;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+nav ul{
+    grid-area: hamburger;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+}
+nav li img{
+    display: none;
+}
+nav li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #EB5428;
+}
