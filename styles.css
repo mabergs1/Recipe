@@ -108,11 +108,12 @@ menu{
     justify-content: space-evenly;
     max-width: 414px;
     margin: 20px;
+    margin-left: 0;
     list-style: none;
 }
 menu li a{
     list-style: none;
     text-decoration: none;
     display: grid;
-    
+
 }
