@@ -262,3 +262,36 @@ nav li a{
     text-decoration: none;
     color: #EB5428;
 }
+nav label{
+    cursor: pointer;
+    display: inline-block;
+    user-select: none;
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+}
+nav span{
+    display: block;
+    position: relative;
+}
+nav label svg{
+    display: block;
+}
+label span::before, label span::after{
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+nav input{
+    display: none;
+}
+nav input:checked ~ ul{
+    max-height: 550px;
+}
+nav h2, footer h2, footer h3, aside dd{
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+}
