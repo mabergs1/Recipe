@@ -295,3 +295,14 @@ nav h2, footer h2, footer h3, aside dd{
     height: 1px;
     width: 1px;
 }
+#logo{
+    background-color: #EB5428;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 150px;
+    padding: 0px 40px;
+    height: 20px;
+}
