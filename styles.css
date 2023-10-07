@@ -218,8 +218,8 @@ aside h2{
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
-    padding-left: 10px;
     margin: 10px;
+    padding-left: 10px;
 }
 .sides .rating h3 a{
     list-style: none;
