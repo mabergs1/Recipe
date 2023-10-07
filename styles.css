@@ -351,6 +351,9 @@ form input:hover{
 button{
     background-color: #EB5428;
 }
+button svg{
+    stroke: #F2F2F2;
+}
 footer{
     max-width: 414px;
     background-color: #F2F2F2;
