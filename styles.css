@@ -342,6 +342,11 @@ nav h3, footer h2, footer h3, aside dd{
     background-color: #EB5428;
     stroke: #F2F2F2;
 }
+#signin svg:hover{
+    color: #F2F2F2;
+    background-color: #EB5428;
+    stroke: #F2F2F2;
+}
 form{
     display: flex;
     position: absolute;
