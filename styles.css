@@ -374,3 +374,12 @@ footer h2{
 #social a svg:hover{
     background-color: #7ABFBF;
 }
+#good{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #F2F2F2;
+}
