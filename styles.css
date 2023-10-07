@@ -103,3 +103,10 @@ dt{
 #need{
     background-color: #7ABFBF;
 }
+menu{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 414px;
+    margin: 20px;
+    list-style: none;
+}
