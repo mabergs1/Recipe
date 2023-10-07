@@ -230,3 +230,6 @@ aside h2{
 .sides:hover{
     background-color: #7ABFBF;
 }
+.rating svg:last-child{
+    fill: #F2F2F2;
+}
