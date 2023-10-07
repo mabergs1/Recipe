@@ -322,7 +322,7 @@ nav h3, footer h2, footer h3, aside dd{
     display: flex;
     color: #0D0D0D;
 }
-signin:hover{
+#signin:hover{
     color: #F2F2F2;
     background-color: #EB5428;
     stroke: #F2F2F2;
