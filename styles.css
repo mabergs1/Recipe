@@ -149,3 +149,17 @@ menu li svg:hover{
     max-width: 414px;
     margin: 10px;
 }
+#ingredients h2{
+    display: flex;
+    max-width: 414px;
+    justify-content: center;
+}
+#ingredients ul{
+    display: flex;
+    flex-direction: column;
+    max-width: 414px;
+    justify-content: center;
+    list-style-type: inherit;
+    padding-left: 10px;
+    margin-left: 10px;
+}
