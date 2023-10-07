@@ -351,3 +351,23 @@ form input:hover{
 button{
     background-color: #EB5428;
 }
+footer{
+    max-width: 414px;
+    background-color: #F2F2F2;
+}
+footer h2{
+    display: none;
+}
+#social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px 20px 100px 0px;
+}
+#social a{
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    max-width: 414px;
+    color: #EB5428;
+}
