@@ -306,3 +306,15 @@ nav h2, footer h2, footer h3, aside dd{
     padding: 0px 40px;
     height: 20px;
 }
+#signin{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    padding-top: 0%;
+    color: #0D0D0D;
+    list-style: none;
+    text-decoration: none;
+    justify-content: flex-end;
+}
