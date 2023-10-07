@@ -230,7 +230,14 @@ aside h2{
 .text, .sides:hover{
     background-color: rgba(122, 191, 191, .5);
 }
+.rating{
+    justify-content: space-between;
+}
 .rating svg{
+    stroke: #F2F2F2;
+    fill: #EB5428;
+}
+.stars svg{
     stroke: #F2F2F2;
     fill: #EB5428;
 }
