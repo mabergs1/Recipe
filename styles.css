@@ -124,3 +124,7 @@ menu li svg:hover{
     background-color: transparent;
     stroke: #F2F2F2;
 }
+.streettacos{
+    max-width: 414px;
+    display: flex;
+}
