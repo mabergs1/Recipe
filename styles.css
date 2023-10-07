@@ -426,3 +426,14 @@ small{
     align-items: center;
     align-content: center;
 }
+
+@media only screen and (min-width:768px) {
+    body{
+        min-width: 768px;
+    }
+    nav{
+        grid-area: nav;
+        max-width: 768px;
+        box-shadow: 0px 3px 3px rgba(122, 191, 191, .5);
+    }
+}
