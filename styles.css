@@ -229,7 +229,7 @@ aside h2{
     color: #0D0D0D;
 }
 .sides:hover{
-    background-color: #7ABFBF;
+    background-color: rgba(122, 191, 191, .5);
 }
 .rating svg:last-child{
     fill: #F2F2F2;
