@@ -87,6 +87,9 @@ h3{
     font-size: 25px;
     font-family: 'Bebas Neue', sans-serif;
 }
+h4{
+    display: none;
+}
 nav a, nav span, menu li, #social li, footer{
     font-size: 20px;
     font-family: 'Bebas Neue', sans-serif;
@@ -139,7 +142,7 @@ menu li svg:hover{
     margin: 10px 10px 10px 0;
     padding: 0 10px;
 }
-#details dl{
+#Details dl{
     display: flex;
     margin-left: 10px;
 }
@@ -208,4 +211,19 @@ aside h2{
 .sides img{
     width: 100%;
     margin: 10px;
+}
+.sides h2, .sides p, .sides .rating{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding-left: 10px;
+    margin: 10px;
+}
+.sides .rating h3 a{
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    color: #0D0D0D;
 }
