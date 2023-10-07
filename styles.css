@@ -358,6 +358,15 @@ footer{
 footer h2{
     display: none;
 }
+#good{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #F2F2F2;
+}
 #social{
     display: flex;
     justify-content: space-evenly;
@@ -374,15 +383,7 @@ footer h2{
 #social a svg:hover{
     background-color: #7ABFBF;
 }
-#good{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: #F2F2F2;
-}
+
 #good img{
     display: flex;
     grid-row: 1;
@@ -394,7 +395,7 @@ footer h2{
     align-items: center;
     align-content: center;
 }
-#good small{
+small{
     grid-row: 2;
     display: flex;
     justify-content: center;
