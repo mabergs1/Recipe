@@ -227,7 +227,7 @@ aside h2{
     display: grid;
     color: #0D0D0D;
 }
-.sides:hover{
+.text, .sides:hover{
     background-color: rgba(122, 191, 191, .5);
 }
 .rating svg:last-child{
