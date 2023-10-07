@@ -110,3 +110,9 @@ menu{
     margin: 20px;
     list-style: none;
 }
+menu li a{
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    
+}
