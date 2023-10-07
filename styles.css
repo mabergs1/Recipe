@@ -134,3 +134,7 @@ menu li svg:hover{
     margin: 10px 10px 10px 0;
     padding: 0 10px;
 }
+#details dl{
+    display: flex;
+    margin-left: 10px;
+}
