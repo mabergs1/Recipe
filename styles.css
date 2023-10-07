@@ -227,7 +227,10 @@ aside h2{
     display: grid;
     color: #0D0D0D;
 }
-.text, .sides:hover{
+.text:hover{
+    background-color: rgba(122, 191, 191, .5);
+}
+.sides:hover{
     background-color: rgba(122, 191, 191, .5);
 }
 .rating{
@@ -244,7 +247,7 @@ aside h2{
 .rating svg:last-child{
     fill: #F2F2F2;
 }
-.star svg:last-child{
+.stars svg:last-child{
     fill: #EB5428;
 }
 nav{
