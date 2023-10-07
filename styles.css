@@ -451,4 +451,14 @@ small{
         color: #F2F2F2;
         background-color: #EB5428;
     }
+    nav li a{
+        display: block;
+        width: 40px;
+    }
+    #logo{
+        display: flex;
+        position: absolute;
+        justify-content: flex-start;
+        align-items: start;
+    }
 }
