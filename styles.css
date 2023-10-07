@@ -95,7 +95,8 @@ p, dd, li, nav, input{
 }
 dt{
     font-size: 16px;
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 #need{
     background-color: #7ABFBF;
