@@ -138,3 +138,9 @@ menu li svg:hover{
     display: flex;
     margin-left: 10px;
 }
+#ingredients{
+    display: flex;
+    flex-direction: column;
+    max-width: 414px;
+    margin: 10px;
+}
