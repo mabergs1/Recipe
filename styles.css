@@ -115,5 +115,12 @@ menu li a{
     list-style: none;
     text-decoration: none;
     display: grid;
-
+}
+menu li a:hover{
+    background-color: #EB5428;
+    color: #F2F2F2;
+}
+menu li svg:hover{
+    background-color: transparent;
+    stroke: #F2F2F2;
 }
