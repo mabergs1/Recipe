@@ -321,6 +321,7 @@ nav h3, footer h2, footer h3, aside dd{
 #signin svg{
     display: flex;
     color: #0D0D0D;
+    stroke: #EB5428;
 }
 #signin:hover{
     color: #F2F2F2;
