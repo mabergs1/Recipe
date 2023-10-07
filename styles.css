@@ -143,18 +143,18 @@ menu li svg:hover{
     display: flex;
     margin-left: 10px;
 }
-#ingredients{
+#Ingredients{
     display: flex;
     flex-direction: column;
     max-width: 414px;
     margin: 10px;
 }
-#ingredients h2{
+#Ingredients h2{
     display: flex;
     max-width: 414px;
     justify-content: center;
 }
-#ingredients ul{
+#Ingredients ul{
     display: flex;
     flex-direction: column;
     max-width: 414px;
@@ -162,4 +162,11 @@ menu li svg:hover{
     list-style-type: inherit;
     padding-left: 10px;
     margin-left: 10px;
+}
+#Directions{
+    display: flex;
+    flex-direction: column;
+    max-width: 414px;
+    justify-content: center;
+    margin: 10px 0 10px 20px;
 }
