@@ -170,3 +170,20 @@ menu li svg:hover{
     justify-content: center;
     margin: 10px 0 10px 20px;
 }
+#Directions ol{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-top: 10px;
+    margin-left: 10px;
+    list-style: decimal;
+}
+#Directions ol li{
+    margin-bottom: 10px;
+}
+#Directions h2{
+    display: flex;
+    justify-content: center;
+    max-width: 414px;
+    padding-bottom: 20px;
+}
