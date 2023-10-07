@@ -230,6 +230,10 @@ aside h2{
 .text, .sides:hover{
     background-color: rgba(122, 191, 191, .5);
 }
+.rating svg{
+    stroke: #F2F2F2;
+    fill: #EB5428;
+}
 .rating svg:last-child{
     fill: #F2F2F2;
 }
