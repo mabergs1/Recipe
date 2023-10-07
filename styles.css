@@ -207,6 +207,7 @@ aside h2{
     display: flex;
     max-width: 414px;
     justify-content: flex-start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .sides img{
     width: 100%;
