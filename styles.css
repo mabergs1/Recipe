@@ -383,3 +383,21 @@ footer h2{
     align-content: center;
     background-color: #F2F2F2;
 }
+#good img{
+    display: flex;
+    grid-row: 1;
+    max-width: 50%;
+    height: auto;
+    margin: 0 20%;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#good small{
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
